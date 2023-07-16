@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
+
+
+
+body {
+	
+	background: linear-gradient(135deg, #00c3d1, #6159b6);
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 30px;
+}
+
+.containerR {
+    align-self: center;
+	max-width: 800px;
+	margin: 80px 40px;
+	background: #ffffff;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+
+.headerR {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.form-control-check {
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 15px;
+	padding: 10px;
+	width: 250px;
+}
+.form-control select {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 15px;
+	padding: 10px;
+	width: 250px;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control select:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+.form-control.success select {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+.form-control.error select {
+	border-color: #e74c3c;
+}
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 50px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	top: 42px;
+
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+#buttonSub:disabled {
+	background-color: #464646;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#buttonSub {
+	background-color: #004cff;
+	border: 2px solid #004cff;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#buttonSub:enabled:hover {
+	cursor: pointer;
+	background: #3915c8;
+}
+
+.checkboxReg:hover {
+	cursor: pointer;
+}
+
+.alreadyLink {
+	text-decoration: none;
+}
+

@@ -1,0 +1,80 @@
+h1{
+  font-size:25px ;
+  font-family : verdana ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+fieldset{width:800px}
+legend{padding:20px}
+#buttonid{
+  ext-align:right
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 10/35;
+  padding: 10px;
+  height: 300px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttonEdit {
+  float : right ;
+}
+
+.orderButton {
+  padding : 3px ;
+  width : 80px ;
+  background-color : #150f8a ;
+  color : #ffffff ;
+  border-radius : 5px ;
+  
+}
+
+.orderButton:hover {
+  cursor : pointer ;
+  background-color : #053b78 ;
+  
+}
+
+
+.orderHistoryTable {
+  width  : 300px ;
+  margin-top : 10px ;
+  margin-bottom : 20px ;
+}
+
+.orderHistoryTable th {
+  width : 50px ;
+  margin-top : 10px ;
+  
+}
+
+.ohButtons {
+  margin-left : 26px ;
+}

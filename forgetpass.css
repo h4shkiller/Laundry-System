@@ -1,0 +1,56 @@
+.fordiv{
+    background: #74c6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+     font-family: sans-serif;
+     box-sizing: border-box;
+}
+
+.content{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+h2{
+    text-align:left;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+p{
+    text-align:left;
+    margin-bottom: 40px;
+    padding-left: 10px;
+
+}
+
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0px 10px 10px;
+    
+}
+
+button{
+    float: left;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.8
+}

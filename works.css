@@ -1,0 +1,51 @@
+h2{}
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p{font-size:18px;font-family:calibri}
+
+#one{font-size:25px;}
+
+* {
+  box-sizing: border-box;
+}
+.column2 {
+  float: left;
+  width: 16.66%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aaa{text-shadow: 2px 2px 5px red;
+	border: 10px black;
+	margin: 12px 12px 15px 12px;
+	padding:10px;
+	text-align:center;
+	background-color:white;
+	font-size:25px;}
+	
+
