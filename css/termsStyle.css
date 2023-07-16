@@ -1,0 +1,14 @@
+.topic{
+    text-align: center;
+}
+
+.content{
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: justify;
+    line-height: 200%;
+}
+body{
+  
+    
+    background-color: rgb(0, 200, 255);}
